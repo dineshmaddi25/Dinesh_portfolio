@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Dinesh Maddi | Portfolio</title>
+    <style>
+        /* Add styles for the Tech Stack section */
+        #tech-stack {
+            background-color: #b0d6f7; /* Light background color for the tech stack */
+            padding: 40px 0;
+        }
+
+        .tech-stack-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .tech-stack-item {
+            flex: 1 1 calc(25% - 20px); /* 4 items per row */
+            box-sizing: border-box;
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+
+        .tech-stack-item img {
+            max-width: 60px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .tech-stack-item h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav__content">
+            <div class="logo"><a href="#">Dinesh</a></div>
+            <label for="check" class="checkbox">
+                <i class="ri-menu-line"></i>
+            </label>
+            <input type="checkbox" name="check" id="check" />
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tech-stack">Tech Stack</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="home" class="section">
+        <div class="section__container">
+            <div class="content">
+                <p class="subtitle">Hello, I Am</p>
+                <h1 class="title">
+                    Dinesh
+                    <br />
+                    <span>A Software Developer</span>
+                </h1>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/dinesh-maddi-676753238/"><i class="ri-linkedin-fill"></i></a>
+                    <a href="https://github.com/dineshmaddi25"><i class="ri-github-fill"></i></a>
+                    <a href="mailto:dineshmaddi2025@gmail.com"><i class="ri-mail-line"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                </div>
+                <div class="action__btns">
+                    <button class="hire__me" onclick="scrollToSection('contact')">Hire Me</button>
+                    <button class="explore" onclick="scrollToSection('tech-stack')">Explore</button>
+                </div>
+            </div>
+            <div class="image">
+                <img src="images/dp3.png" alt="profile"/>
+            </div>
+        </div>
+    </section>
+    
+    <section id="tech-stack">
+        <h2>Tech Stack</h2>
+        <div class="tech-stack-container">
+            <div class="tech-stack-item">
+                <img src="techstack-images/java.png" alt="Tech 1">
+                <h3>Java</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/python.jpeg" alt="Tech 2">
+                <h3>Python</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/htmlandcss.jpeg" alt="Tech 4">
+                <h3>HTML & CSS</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/javascript.png" alt="Tech 4">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/gi.png" alt="Tech 4">
+                <h3>Git</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/github.jpeg" alt="Tech 4">
+                <h3>GitHub</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/docker.png" alt="Tech 3">
+                <h3>Docker</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/jenkins.jpeg" alt="Tech 3">
+                <h3>Jenkins</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/ai and ml.png" alt="Tech 4">
+                <h3>Artifical Intelligence & Machine Learning</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/nlp.jpeg" alt="Tech 4">
+                <h3>Natural Language Processing</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/deeplaenring.png" alt="Tech 4">
+                <h3>Deep Learning</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/imag.jpeg" alt="Tech 3">
+                <h3>Image Processing and Manipulation </h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/excel.jpeg" alt="Tech 3">
+                <h3>Excel</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/msql.png" alt="Tech 3">
+                <h3>MySql</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/tableau.png" alt="Tech 3">
+                <h3>Tableau</h3>
+            </div>
+            <div class="tech-stack-item">
+                <img src="techstack-images/Linuz.png" alt="Tech 3">
+                <h3>Linux</h3>
+            </div>
+            <!-- Add more tech stack items as needed -->
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card">
+                <a href="https://github.com/dineshmaddi25/News-hubConnect">
+                <img src="projects/pro1.jpg" alt="Project 1"></a>
+                <h1 class="title1">
+                    <span>News-hubconnect</span> application with unique features
+                </h1>
+                <p class="description">
+                    NewHub is an innovative platform designed for users to discover, save, and share articles and pages seamlessly. It offers a comprehensive set of features including authentication, article saving functionality, and a unique blogging capability, enabling users to connect with their audience effortlessly.
+                </p>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=ydrSp9ipHCY">
+                <img src="projects/pro2.jpeg" alt="Project 2"></a>
+                <h1 class="title1">
+                    <span>Maya voice assitant</span> Conversational AI application
+                </h1>
+                <p class="description">
+                    Maya is a voice assistant designed to simplify your daily tasks and provide you with useful information using speech recognition technology. With Maya, you can inquire about the weather, listen to music, receive suggestions,
+                </p>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/dineshmaddi25/Churn_Prediction_Model">
+                <img src="projects/pro4.jpg" alt="Project 2"></a>
+                <h1 class="title1">
+                    <span>CustomerChurn-prediction,<br></span>Application to predict churn
+                </h1>
+                <p class="description">
+                    Churn prediction is a type of predictive modeling technique used in business, particularly in the telecommunications industry, to forecast the likelihood of customers switching to a different service provider or discontinuing their subscription
+                </p>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/dineshmaddi25/Crypto-Wave">
+                <img src="projects/pro3.jpeg" alt="Project 3">
+                </a>
+                <h1 class="title1">
+                    <span>Crypto-wave</span> Blockchain based platform
+                </h1>
+                <p class="description">
+                    The Crypto Wave Blockchain Project, named "Crypto Wave," is a revolutionary blockchain-based platform designed for facilitating secure and transparent cryptocurrency transactions. With the rise of digital currencies and the growing popularity of non-fungible tokens (NFTs), Crypto Wave aims to provide a robust and scalable solution
+                </p>
+            </div>
+            <!-- Add more projects as needed -->
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        <div class="certificate-container">
+            <div class="certificate-card">
+                <a href="https://rha.ole.redhat.com/rha/api/certificates/attendance/uuid/2facc2ff-4cdc-44fd-a0d5-110c729365cb" target="_blank">
+                    <img src="certificates/cer1.png" alt="Certificate 1">
+                </a>
+                <p>Redhat Linux System Administration</p>
+            </div>
+            <div class="certificate-card">
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="fe4f2f10-2d33-4b63-88a4-854ec5a14a49" data-share-badge-host="https://www.credly.com"></div>
+                <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+                <p>2024 Red Hat Academy - Program Learner</p>
+            </div>
+            <div class="certificate-card">
+                <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Tata/MyXvBcppsW2FkNYCX_Tata_AAxqNxjmwuJi34ur7_1690807310036_completion_certificate.pdf" target="_blank">
+                    <img src="certificates/cer2.png" alt="Certificate 3">
+                </a>
+                <p>Data Visualisation: Empowering Business with Effective Insight</p>
+            </div>
+            <div class="certificate-card">
+                <a href="https://drive.google.com/file/d/1jpJ1ehtOqM_aYUhaF-R982AORQHiwPKf/view?usp=sharing" target="_blank">
+                    <img src="certificates/cer3.png" alt="Certificate 3">
+                </a>
+                <p>Complete Machine Learning and Data Science</p>
+            </div>
+            <div class="certificate-card">
+                <a href="https://onestop-prod.s3.ap-south-1.amazonaws.com/student_project_certificates/97/MADDI_Oct_2022_project_completion_33048.pdf" target="_blank">
+                    <img src="certificates/cer4.png" alt="Certificate 4">
+                </a>
+                <p>Advanced Python: Real-World Coding Skills</p>
+            </div>
+            <div class="certificate-card">
+                <a href="https://www.linkedin.com/learning/certificates/22119c5386e6d08ce0a7ba124f14b949a5be5260c9f1864f900d84a93e9dcf14 target="_blank">
+                    <img src="certificates/cer5.png" alt="Certificate 5">
+                </a>
+                <p>Career Essentials in Generative AI by Microsoft and LinkedIn</p>
+            </div>
+            <div class="certificate-card">
+                <a href="https://www.credly.com/badges/fe4f2f10-2d33-4b63-88a4-854ec5a14a49/public_url" target="_blank">
+                    <img src="certificates/cer6.png" alt="Certificate 6">
+                </a>
+                <p>2024 Red Hat Academy - Program Learner</p>
+            </div>
+            
+            <div class="certificate-card">
+                <a href="https://www.coursera.org/account/accomplishments/specialization/HCD46ZX9ANNV" target="_blank">
+                    <img src="certificates/cer7.png" alt="Certificate 6">
+                </a>
+                <p>Data Structures and Algorthims</p>
+            </div>
+            
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="mailto:dineshmaddi2025@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="quick-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h4>Contact Info</h4>
+                <p>Email: <a href="mailto:dineshmaddi2025@gmail.com">dineshmaddi2025@gmail.com</a></p>
+                <p>Location: Punjab, India-144411</p>
+            </div>
+        </div>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 Dinesh. All rights reserved.</p>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
