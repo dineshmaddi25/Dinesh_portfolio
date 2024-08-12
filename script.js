@@ -80,6 +80,7 @@ document.querySelectorAll('.project-card').forEach(card => {
 });
 
 console.log("Hello");
+console.log("hello world");
 
 
 
